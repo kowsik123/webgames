@@ -60,7 +60,7 @@ const onPlayerChoiceClick = (playerChoice) => {
             setResult(RESULT.DRAW);
         } else if(computerChoice===CHOICE.ROCK && playerChoice===CHOICE.PAPPER) {
             setResult(RESULT.WON);
-        } else if(computerChoice===CHOICE.SCISSOR && playerChoice===CHOICE.PAPPER) {
+        } else if(computerChoice===CHOICE.ROCK && playerChoice===CHOICE.SCISSOR) {
             setResult(RESULT.LOSE);
         } else if(computerChoice===CHOICE.PAPPER && playerChoice===CHOICE.ROCK) {
             setResult(RESULT.LOSE);
