@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.choice-button {
+    all: unset;
+    background-color: white;
+    padding: 4px 10px;
+    line-height: 20px;
+    border-radius: 28px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.362);
+    margin-right: 10px;
+    cursor: pointer;
+    transition: box-shadow .3s;
+}
+
+.choice-button:hover {
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.362);
+}
+
+.choice-button[active] {
+    background-color: rgb(83, 83, 83);
+    color: white;
+}
+
+.choice-button[hidden] {
+    display: none;
+}
+
+div.choice-button, div.choice-button:hover {
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.166);
+    cursor: default;
+}
+
+#computer-choice-title {
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#computer-loader {
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+
+
+
